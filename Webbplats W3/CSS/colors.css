@@ -1,0 +1,69 @@
+/*
+Alla färgobjekt
+*/
+
+
+body{
+    background-color: #1E88E5;
+   
+}
+
+nav {
+ 
+    background-color: darkblue;
+    
+}
+
+.dropbtn {
+    color: white;
+ 
+}
+
+button{
+     background-color: darkblue;
+    color: white; 
+}
+
+
+button:hover {
+    background-color: blue;
+}
+.headerDiv{
+    border-color: gray;
+}
+
+.topContainerH3{
+    color: darkblue;
+}
+button a{
+    
+    color: white;
+}
+
+
+.divLeftH3{
+    background-color: orange;
+ 
+}
+
+.container{
+    background-color: lightblue;
+}
+
+.dropdown-content {
+   
+    background-color: darkblue;
+   
+}
+
+.dropdown-content a {
+    color: white;
+
+      background-color: darkblue;
+    border-top-color: black;
+}
+
+.dropdown-content a:hover{   
+      background-color: blue;
+    
+  }

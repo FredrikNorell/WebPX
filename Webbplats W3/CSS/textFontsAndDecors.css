@@ -1,0 +1,42 @@
+/*
+Endast fonter och dekor till text.
+INTE bakgrundsfärger eller placering.
+
+*/
+
+
+body{
+    font-size: 2vw;    
+}
+
+.dropbtn {
+    color: white;
+ 
+}
+
+button{
+  
+    color: white;
+    font-size: 0.8em;
+    
+}
+
+
+.topContainerH3{
+    color: darkblue;
+}
+button a{
+    text-decoration: none;
+    color: white;
+}
+
+.dropdown-content a {
+    color: white;
+  
+    text-decoration: none;
+   
+}
+
+.nameText{
+    font-size: 4vh;
+}
