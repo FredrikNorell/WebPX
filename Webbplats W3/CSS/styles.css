@@ -6,10 +6,10 @@ html,body
     height: 100%;
     margin: 0px;
     padding: 0px;
-    overflow-x: hidden; 
+   
 }
 body{
-    background-color: #1E88E5;
+
     font-size: 2vw;
    
    
@@ -21,11 +21,10 @@ header{
 }
 
 .headerDiv{
-    border: 5px solid gray ;
+    border-style: solid;
+    border-width: 5px;
 }
-.headerShadow{
-  background-color: darkgoldenrod
-}
+
 
 #secCon{
     text-align: right;
@@ -33,92 +32,45 @@ header{
 
 
 .leftH3{
-    background-color: orange;
+ 
     border-top-right-radius: 50px;
-    border-bottom-right-radius: 50px;
-  
+    border-bottom-right-radius: 50px;   text-align: center;
     
-   
-   
+     
+}
+
+.topH3{
+    
+    display: list-item;                                                       
+    list-style-type: disc;       
+    list-style-position: inside;
+    
 }
 
 .container{
-      background-color: blue;
+      
     border-top-right-radius: 50px;
     border-bottom-right-radius: 50px;
     
 }
 
-#topCon{
- 
-}
 
 #topRow{
     margin-top: 10%;
   
 }
-nav {
-   text-align: center;
-    position: fixed;
-    top: 0;
-    width: 100%;
-    background-color: black;
-    
-    padding: 15px;
-}
+
 
 li  {
     display: inline-grid;
       float: left;
 }
 
-button{
-    background-color: #4CAF50;
-    color: white;
-    font-size: 0.8em;
-    border: none;
-    cursor: pointer;
-    width: 12%;
-}
-.dropbtn {
-    background-color: #4CAF50;
-    color: white;
-   
-    border: none;
-    cursor: pointer;
-}
+nav {
+  
+    position: fixed;
 
-
-.dropdown {
-    position: relative;
-    display: inline-block;
 }
-
-.dropdown-content {
-    display: none;
-    position: absolute;
-    background-color: gray;
-    min-width: 100%;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 1;
-}
-
-.dropdown-content a {
-    color: black;
-    padding: 12px 16px;
-    text-decoration: none;
-    display: block;
-}
-.dropdown-content a:hover {background-color: #f1f1f1}
-
-.dropdown:hover .dropdown-content {
-    display: block;
-}
-
-.dropdown:hover .dropbtn {
-    background-color: #3e8e41;
-}
-
 
 
 
@@ -129,7 +81,7 @@ button{
 
 [class*="col-"] {
     float: left;
-  
+    padding: 0.1px;
     border: 1px solid red;
 }
 .row::after {

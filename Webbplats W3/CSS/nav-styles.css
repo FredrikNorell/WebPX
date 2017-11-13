@@ -6,7 +6,7 @@ nav {
     position: fixed;
     top: 0;
     width: 100%;
-   padding-top: 5px;
+   
     
 }
 
@@ -16,7 +16,7 @@ li  {
 }
 
 .navDiv{
-    margin-top: 10px;
+    margin-top: 0px;
 }
 .dropbtn {
   
@@ -25,8 +25,8 @@ li  {
 }
 
 button{
-    padding-top: 3px;
-    padding-bottom: 3px;
+    padding-top: 10px;
+    padding-bottom: 10px;
     border: none;
     cursor: pointer;
 }
@@ -66,7 +66,3 @@ button{
     
   }
 
-.navButt{
-    
-    margin: 2px;
-}

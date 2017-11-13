@@ -4,7 +4,7 @@ Alla färgobjekt
 
 
 body{
-    background-color: #1E88E5;
+    background-color: whitesmoke;
    
 }
 
@@ -17,6 +17,10 @@ nav {
 .dropbtn {
     color: white;
  
+}
+
+.headerDiv{
+    border-color: gray ;
 }
 
 button{
@@ -32,8 +36,8 @@ button:hover {
     border-color: gray;
 }
 
-.topContainerH3{
-    color: darkblue;
+#headerShadow{
+    background-color: lightgray;
 }
 button a{
     
@@ -41,13 +45,19 @@ button a{
 }
 
 
-.divLeftH3{
-    background-color: orange;
- 
+
+
+.leftH3{
+    background-color: darkgray;
+     
+}
+
+.topH3{
+     color: white; 
 }
 
 .container{
-    background-color: lightblue;
+    background-color: white;
 }
 
 .dropdown-content {
